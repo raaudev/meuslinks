@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Matiz:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root{
+  --fonte1: 'Kanit', sans-serif;
+  --fonte2: 'Montserrat' sans-serif;
+  --fonte3: 'Matiz', sans-serif;
+  
+  --cor1: #40E0D0;
+  --cor2: #FFFFF0
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: #333;
+    color: var(--cor2);
+    font-family: var(--fonte3);
+    font-weight: bold;
+}
+
+.img__center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+div > img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid var(--cor1);
+}
+
+.nomes{
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.nomes > p{
+  padding-top: 15px;
+  padding-bottom: 50px;
+  font-family: var(--fonte2);
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-family: var(--fonte1);
+  font-weight: bolder;
+  padding-bottom: 40px;
+}
+
+.caixas__links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fffff0;
+  width: 340px;
+  height: 40px;
+  border-radius: 50px;
+  padding: 0 20px 0 20px;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.caixas__links > i{
+  color: var(--cor1);
+  font-size: 1.3em;
+}
+
+.div__icones{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  gap: 30px;
+}
+
+.div__icones__caixa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  background-color: var(--cor2);
+  border-radius: 50%;
+}
+   
+.icones{
+   font-size: 1.3em;
+   color: var(--cor1);
+ }
+
+footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 80px;
+   text-align: center;
+   gap: 5px;
+}
+
+.bi-bullseye{
+  color: var(--cor1);
+  font-size: 1.5em;
+}
+
+footer > h3 {
+  font-family: var(--fonte1);
+  font-weight: bolder;
+  color: var(--cor2);
+}
+
+h1:first-letter{
+  color: var(--cor1);
+}
+
+span{
+  color: var(--cor1);
+}
